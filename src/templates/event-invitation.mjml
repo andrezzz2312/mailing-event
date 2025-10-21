@@ -1,0 +1,139 @@
+<mjml>
+	<mj-head>
+		<mj-font
+			name="Poppins"
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+		/>
+
+		<mj-attributes>
+			<mj-all font-family="Poppins, Arial, sans-serif" color="#333333" />
+			<mj-class
+				name="button"
+				font-size="19.2px"
+				line-height="24px"
+				font-weight="400"
+				color="#ffffff"
+				background-color="#2871E6"
+				padding="15px 30px"
+				border-radius="4px"
+			/>
+			<mj-class
+				name="heading"
+				font-size="39.81px"
+				line-height="56px"
+				font-weight="700"
+				color="#000000"
+				text-align="center"
+			/>
+			<mj-class
+				name="label"
+				font-size="11.11px"
+				line-height="16px"
+				font-weight="400"
+				color="#555555"
+			/>
+			<mj-class
+				name="body"
+				font-size="19.2px"
+				line-height="24px"
+				font-weight="500"
+				color="#414750"
+			/>
+		</mj-attributes>
+
+		<mj-style>
+			@media only screen and (max-width:480px) { .button { font-size: 13.33px;
+			line-height: 16px; } .heading { font-size: 28px; line-height: 36px; }
+			.body { font-size: 16px; line-height: 24px; } .label { font-size: 10px;
+			line-height: 14px; } .bannerDiv{ width: 100%; } .socialsDiv{width: 100%; }
+			.socialContainer{ text-align: center; } .bannerImg{ display: flex
+			!important; justify-content:center; margin-left:-5%;}} @media only screen
+			and (max-width:768px) and (min-width:481px) { .button { font-size: 16px;
+			line-height: 24px; } .heading { font-size: 32px; line-height: 48px; }
+			.body { font-size: 13.33px; line-height: 16px; } .label { font-size: 11px;
+			line-height: 16px; } }
+		</mj-style>
+	</mj-head>
+
+	<mj-body background-color="#f4f4f4">
+		<mj-section background-color="#f4f4f4" padding="20px 0">
+			<mj-column
+				width="50%"
+				vertical-align="middle"
+				css-class="bannerDiv"
+				padding="0"
+			>
+				<mj-image
+					css-class="bannerImg"
+					align="left"
+					src="https://github.com/andrezzz2312/mailing-event/blob/main/src/assets/logoname.png?raw=true"
+					width="200px"
+				/>
+			</mj-column>
+			<mj-column width="50%" vertical-align="middle" css-class="socialsDiv">
+				<mj-social
+					css-class="socialContainer"
+					font-size="15px"
+					icon-size="30px"
+					mode="horizontal"
+					align="right"
+				>
+					<mj-social-element name="facebook" href="https://facebook.com" />
+					<mj-social-element name="twitter" href="https://twitter.com" />
+					<mj-social-element name="instagram" href="https://instagram.com" />
+				</mj-social>
+			</mj-column>
+		</mj-section>
+
+		<mj-section background-color="#ffffff" padding="20px">
+			<mj-column>
+				<mj-image
+					src="https://github.com/andrezzz2312/mailing-event/blob/main/src/assets/banner1.jpg?raw=true"
+					alt=""
+				/>
+				<mj-text mj-class="heading">
+					<div class="heading">Innovación Tecnológica 2025</div>
+				</mj-text>
+				<mj-text mj-class="body">
+					<div class="body">
+						Te invitamos a participar en nuestro evento anual donde exploraremos
+						las últimas tendencias en tecnología e innovación. Será una
+						oportunidad única para conectar con expertos de la industria y
+						descubrir nuevas herramientas para tu organización.
+					</div>
+				</mj-text>
+				<mj-text mj-class="label">
+					<div class="label">25 de Octubre de 2025 · 14h00</div>
+				</mj-text>
+				<mj-button mj-class="button" href="{{button_url}}">
+					<div class="button">Regístrate ahora</div>
+				</mj-button>
+			</mj-column>
+		</mj-section>
+		<mj-section padding-bottom="30px">
+			<mj-column>
+				<mj-social
+					font-size="15px"
+					icon-size="30px"
+					mode="horizontal"
+					align="center"
+				>
+					<mj-social-element name="facebook" href="https://facebook.com" />
+					<mj-social-element name="twitter" href="https://twitter.com" />
+					<mj-social-element name="instagram" href="https://instagram.com" />
+				</mj-social>
+				<mj-text align="center" font-size="12px" color="#999999">
+					<div class="footer">
+						© 2025 E-TECH. Todos los derechos reservados.
+					</div>
+				</mj-text>
+				<mj-image
+					css-class="logoImg"
+					align="center"
+					src="https://github.com/andrezzz2312/mailing-event/blob/main/src/assets/logo.png?raw=true"
+					width="50px"
+				/>
+			</mj-column>
+		</mj-section>
+	</mj-body>
+</mjml>

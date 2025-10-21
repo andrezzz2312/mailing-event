@@ -1,7 +1,20 @@
 <mj-section padding-bottom="30px">
 	<mj-column>
+		<mj-social
+			font-size="15px"
+			icon-size="30px"
+			mode="horizontal"
+			align="center"
+		>
+			<mj-social-element name="facebook" href="https://facebook.com" />
+			<mj-social-element name="twitter" href="https://twitter.com" />
+			<mj-social-element name="instagram" href="https://instagram.com" />
+		</mj-social>
 		<mj-text align="center" font-size="12px" color="#999999">
-			<div class="footer">{{footer_text}}</div>
+			<div class="footer">{{footer_ecuador}}</div>
+		</mj-text>
+		<mj-text align="center" font-size="12px" color="#999999">
+			<div class="footer">{{footer_copy}}</div>
 		</mj-text>
 	</mj-column>
 </mj-section>

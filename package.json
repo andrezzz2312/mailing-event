@@ -1,0 +1,19 @@
+{
+	"name": "mailing-event",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build-email": "mjml src/templates/event-invitation.mjml -o dist/email.html",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"description": "",
+	"dependencies": {
+		"fs-extra": "^11.3.2",
+		"handlebars": "^4.7.8",
+		"mjml": "^4.16.1"
+	}
+}

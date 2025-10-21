@@ -1,0 +1,17 @@
+<mj-section background-color="#ffffff" padding="40px 0">
+	<mj-column>
+		<mj-image src="{{image}}" alt="" />
+		<mj-text mj-class="heading">
+			<div class="heading">{{title}}</div>
+		</mj-text>
+		<mj-text mj-class="body">
+			<div class="body">{{description}}</div>
+		</mj-text>
+		<mj-text mj-class="label">
+			<div class="label">{{date}}</div>
+		</mj-text>
+		<mj-button mj-class="button" href="{{button_url}}">
+			<div class="button">{{button_text}}</div>
+		</mj-button>
+	</mj-column>
+</mj-section>

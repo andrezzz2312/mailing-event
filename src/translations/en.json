@@ -1,9 +1,11 @@
 {
 	"title": "Technological Innovation 2025",
-	"description": "Join us for our annual event exploring the latest trends in technology and innovation. A unique opportunity to connect with industry experts and discover new tools for your organization.",
-	"date": "October 25th, 2025 · 2:00 PM",
+	"description": "Join us for our annual event where we will explore the latest trends in technology and innovation. It will be a unique opportunity to connect with industry experts and discover new tools for your organization.",
+	"date": "October 25th, 2025. 14h00",
 	"button_text": "Register now",
-	"button_url": "https://www.funiber.us/",
+	"button_url": "https://wigglypaint.net/",
 	"image": "https://github.com/andrezzz2312/mailing-event/blob/main/src/assets/banner1.jpg?raw=true",
-	"footer_text": "© 2025 Funiber. All rights reserved."
+	"footer_ecuador": "Av. Amazonas N34-232 and Av. Colón, Quito – Ecuador.",
+	"footer_colombia": "Cra. 7 #32-16, Bogotá – Colombia.",
+	"footer_copy": "© 2025 E-TECH. All rights reserved."
 }

@@ -53,13 +53,14 @@
 			line-height: 16px; } .heading { font-size: 28px; line-height: 36px; }
 			.body { font-size: 13.33px; line-height: 16px; } .label {
 			font-size:11.11px ; line-height: 16px; } .footer { font-size:11.11px ;
-			line-height: 16px; } .bannerDiv{ width: 100%; } .socialsDiv{width: 100%; }
-			.socialContainer{ text-align: center; } .bannerImg{ display: flex
-			!important; justify-content:center; margin-left:-5%;}} @media only screen
-			and (max-width:768px) and (min-width:481px) { .button { font-size: 16px;
-			line-height: 24px; } .heading { font-size: 32px; line-height: 48px; }
-			.body { font-size: 16px; line-height: 24px; } .label { font-size: 13.33px;
-			line-height: 16px; } .footer { font-size: 13.33px; line-height: 16px; } }
+			line-height: 16px; } .headerDiv{ width: 100%; } .socialsDiv{width: 100%; }
+			.socialContainer{ text-align: center; } .headerImg{ display: flex
+			!important; justify-content:center !important; margin-left:-5%; }} @media
+			only screen and (max-width:768px) and (min-width:481px) { .button {
+			font-size: 16px; line-height: 24px; } .heading { font-size: 32px;
+			line-height: 48px; } .body { font-size: 16px; line-height: 24px; } .label
+			{ font-size: 13.33px; line-height: 16px; } .footer { font-size: 13.33px;
+			line-height: 16px; } }
 		</mj-style>
 	</mj-head>
 

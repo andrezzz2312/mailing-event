@@ -1,9 +1,10 @@
 {
 	"name": "mailing-event",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "build.js",
 	"scripts": {
-		"build-email": "mjml src/templates/event-invitation.mjml -o dist/email.html",
+		"build": "node build.js",
+		"template": "mjml src/templates/event-invitation-template.mjml -o dist/email-template.html",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
@@ -14,6 +15,8 @@
 	"dependencies": {
 		"fs-extra": "^11.3.2",
 		"handlebars": "^4.7.8",
-		"mjml": "^4.16.1"
+		"mjml": "^4.16.1",
+		"nodemailer": "^7.0.9",
+		"readline-sync": "^1.4.10"
 	}
 }

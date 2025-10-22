@@ -53,20 +53,17 @@
 			/>
 			<!-- <mj-class name="bannerImg" border-radius="16px 16px 0px 0px" /> -->
 		</mj-attributes>
-		<mj-style inline="inline">
-			.dateWrapper{ text-align: start; justify-content:start;}
-			.dateColumn{display: flex; align-items:center; width: 100%;} .divDate{
-			display: inline-flex; align-items: center !important; gap: 4px; }
-		</mj-style>
+		<mj-style inline="inline"> </mj-style>
 		<mj-style>
-			.bannerImg{ border-radius: 0px !important; } @media only screen and
-			(max-width:375px) { .button { font-size: 13.33px; line-height: 16px; }
-			.heading { font-size: 28px; line-height: 36px; } .body { font-size:
-			13.33px; line-height: 16px; } .label { font-size:11.11px ; line-height:
-			16px; } .footer { font-size:11.11px ; line-height: 16px; } .headerDiv{
-			width: 100%; } .socialsDiv{width: 100%; } .socialContainer{ text-align:
-			center; } .headerImg{ margin-left:-5%; } .bannerImg{border-radius: 0px
-			!important;}}
+			.bannerImg{ border-radius: 0px !important; } .calendarText,
+			.timeText{font-size: 16px;} @media only screen and (max-width:375px) {
+			.button { font-size: 13.33px; line-height: 16px; } .heading { font-size:
+			28px; line-height: 36px; } .body { font-size: 13.33px; line-height: 16px;
+			} .label { font-size:11.11px ; line-height: 16px; } .footer {
+			font-size:11.11px ; line-height: 16px; } .headerDiv{ width: 100%; }
+			.socialsDiv{width: 100%; } .socialContainer{ text-align: center; }
+			.headerImg{ margin-left:-5%; } .bannerImg{border-radius: 0px !important;}
+			.calendarText{ font-size: 13.33px; } .timeText{ font-size: 13.33px; }}
 		</mj-style>
 	</mj-head>
 
@@ -100,7 +97,7 @@
 		</mj-section>
 		<mj-section background-color="#ffffff" padding="0px 0px">
 			<mj-column padding="0 0 0px 0">
-				<mj-text mj-class="heading" padding="40px 50px 0 50px">
+				<mj-text mj-class="heading" padding="30px 50px 0 50px">
 					<div class="heading">Innovación Tecnológica 2025</div>
 				</mj-text>
 				<mj-text mj-class="body" padding="20px 50px 0 50px">
@@ -115,26 +112,23 @@
 		</mj-section>
 		<mj-section background-color="#ffffff" padding="20px 50px">
 			<mj-column width="100%">
-				<mj-text padding="10px 0">
+				<mj-text padding="10px 0" padding-bottom="10px">
 					<table cellpadding="0" cellspacing="0" border="0">
 						<tr>
 							<td valign="middle">
 								<img
-									src="https://raw.githubusercontent.com/andrezzz2312/mailing-event/main/src/assets/facebook.png"
-									alt="Facebook"
-									width="24"
-									height="24"
+									src="https://raw.githubusercontent.com/andrezzz2312/mailing-event/main/src/assets/calendar.png
+"
+									alt="Calendar"
+									width="32"
+									height="32"
 									style="display: block"
 								/>
 							</td>
 							<td
 								valign="middle"
-								style="
-									padding-left: 8px;
-									font-size: 16px;
-									font-weight: 600;
-									color: #414750;
-								"
+								class="calendarText"
+								style="padding-left: 8px; font-weight: 600; color: #414750"
 							>
 								25 de Octubre de 2025
 							</td>
@@ -142,23 +136,25 @@
 					</table>
 				</mj-text>
 
-				<mj-text padding="10px 0" padding-top="5px">
+				<mj-text padding="0px" padding-top="0px">
 					<table cellpadding="0" cellspacing="0" border="0">
 						<tr>
 							<td valign="middle">
 								<img
-									src="https://raw.githubusercontent.com/andrezzz2312/mailing-event/main/src/assets/facebook.png"
+									src="https://raw.githubusercontent.com/andrezzz2312/mailing-event/main/src/assets/clock.png
+"
 									alt="Clock"
-									width="24"
-									height="24"
+									width="32"
+									height="32"
 									style="display: block"
 								/>
 							</td>
 							<td
 								valign="middle"
+								class="timeText"
 								style="
 									padding-left: 8px;
-									font-size: 16px;
+
 									font-weight: 600;
 									color: #414750;
 								"
@@ -171,7 +167,7 @@
 			</mj-column>
 		</mj-section>
 
-		<mj-section background-color="#ffffff" padding-bottom="40px">
+		<mj-section background-color="#ffffff" padding-bottom="50px">
 			<mj-column>
 				<mj-button
 					padding="0px 50px 0 50px"
